@@ -1,38 +1,83 @@
 .App {
-  text-align: center;
+  text-align: center;    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  background-image: url(./img/чтоНадо.png);
+  height: 160px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.headerH1{
+  color: rgb(250, 207, 116);
+  font-family: Verdana, Tahoma, sans-serif;
+  font-style: italic;
+}
+.imageBox{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  border: solid 1px rgb(66, 66, 246);
+  width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
+.image{
+  border: 1px solid rgb(66, 66, 246);
+  margin: 5px;
+  padding: 10px;
+  font-size: 120%;
 }
+.btn{
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border: 1px solid rgb(66, 66, 246);
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 140%;
+  font-weight: 600;
+  color: rgb(66, 66, 246);  
+}
+.outputInfo{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: solid 1px rgb(66, 66, 246);
+  margin: auto;
+}
+.linkBox{
+  display: flex;
+  margin: auto;
+}
+.link{
+  display: block;
+  padding: 5px 15px;
+  color: rgb(250, 207, 116);
+  font-size: 150%;
+  background: transparent;
+  border: 1px rgb(250, 207, 116) solid;
+  cursor: pointer;
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+  text-decoration: none;
+}
+.out{
+  display: flex;
+  flex-direction: column;
+  border: solid 1px rgb(66, 66, 246);
+  margin: 20px;
+  padding: 20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.image2{
+  width: 400px;
+}
+.divOut{
+  margin-top: 10px;
+}
+.checkbox{
+  width: 30px;
+  height: 30px;
+  border: solid black 2px;
 }
